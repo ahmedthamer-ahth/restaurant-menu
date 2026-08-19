@@ -151,7 +151,7 @@ function sendOrderToWhatsApp() {
         return;
     }
 
-    let message = `طلب جديد من المنيو 🍔\n\n`;
+    let message = `طلب جديد من المنيو\n\n`;
     message += `اسم الزبون: ${name}\n`;
     message += `رقم الهاتف: ${phone}\n`;
     message += `العنوان: ${address}\n`;
